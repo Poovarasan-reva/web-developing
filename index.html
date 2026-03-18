@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ✅ added for mobile -->
+  <title>Pirate AI Chat ⚓</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <header>
+    <h2>🏴‍☠️ Pirate AI</h2>
+  </header>
+
+  <div class="messages" id="messages"></div> <!-- ✅ added id for safer JS access -->
+
+  <div class="input-area">
+    <textarea
+      id="userInput"
+      placeholder="Ask something..."
+      rows="1"
+    ></textarea> <!-- ✅ added rows="1" so it starts small -->
+    <button type="button" id="sendBtn">Send ➤</button> <!-- ✅ added type="button" -->
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
